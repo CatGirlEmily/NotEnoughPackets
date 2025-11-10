@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "notenoughpackets",
+	"version": "${version}",
+	"name": "NotEnoughPackets",
+	"description": "A minecraft packet manager.",
+	"authors": [
+		"capsoffpls"
+	],
+	"contact": {
+		"sources": "https:github.com/CatGirlEmily/NotEnoughPackets"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/notenoughpackets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"catgirlemily.nep.NotEnoughPackets"
+		]
+	},
+	"mixins": [
+		"notenoughpackets.mixins"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
